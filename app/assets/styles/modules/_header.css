@@ -1,0 +1,33 @@
+.c-header {
+  min-height: 100vh;
+  /* overflow: hidden; */
+  &__content {
+    width: 100%;
+  }
+  &__img {
+    width: 100%;
+    order: -1;
+    margin-bottom: 32px;
+  }
+  &__inner {
+    padding-top: 130px;
+    min-height: 100vh;
+  }
+  &__dots {
+    position: absolute;
+    bottom: 0rem;
+    left: -6rem;
+    width: 13rem;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .c-header__content {
+    width: 45%;
+  }
+  .c-header__img {
+    width: 48%;
+    order: 2;
+    margin-bottom: 0;
+  }
+}
